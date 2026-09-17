@@ -1,0 +1,32 @@
+{
+  "profiles": [
+    {
+      "id": "steady",
+      "label": "Steady baseline",
+      "sleepHours": 7.4,
+      "hrvDelta": -4,
+      "restingHrDelta": 1,
+      "soreness": 2,
+      "goal": "energy"
+    },
+    {
+      "id": "strained",
+      "label": "Under-recovered",
+      "sleepHours": 5.3,
+      "hrvDelta": -22,
+      "restingHrDelta": 8,
+      "soreness": 7,
+      "goal": "training"
+    },
+    {
+      "id": "ready",
+      "label": "Ready to move",
+      "sleepHours": 8.1,
+      "hrvDelta": 11,
+      "restingHrDelta": -2,
+      "soreness": 1,
+      "goal": "training"
+    }
+  ],
+  "disclaimer": "Fictional wearable readings. Simulated guidance for product testing only; not medical advice."
+}
